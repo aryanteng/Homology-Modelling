@@ -1,8 +1,5 @@
-# import pylab
+import pylab
 import modeller
-from matplotlib import pyplot as plt
-# import bokeh
-# from bokeh.plotting import figure, output_file, save
 
 def r_enumerate(seq):
     """Enumerate a sequence in reverse order"""
@@ -33,29 +30,14 @@ def get_profile(profile_file, seq):
 e = modeller.Environ()
 a = modeller.Alignment(e, file='Target-template.ali')
 
-template = get_profile('Template.profile', a['3u4wA'])
-model = get_profile('Target.profile', a['1YES'])
+template = get_profile('Template.profile', a['5xjyA'])
+model = get_profile('1YES.profile', a['1YES'])
 
 # Plot the template and model profiles in the same plot for comparison:
-plt.figure(1, figsize=(10,6))
-plt.xlabel('Alignment position')
-plt.ylabel('DOPE per-residue score')
-plt.plot(model, color='red', linewidth=2, label='Model')
-plt.plot(template, color='green', linewidth=2, label='Template')
-plt.legend()
-plt.savefig('dope_profile.png', dpi=65)
-#
-# output_file('dope_profile.html')
-# p = figure(title="DOPE per-residue score",
-#            x_axis_label='Alignment position',
-#            y_axis_label='DOPE per-residue score')
-#
-# # Add the template and model data to the plot
-# p.line(range(len(model)), model, line_color='red', line_width=2, legend_label='Model')
-# p.line(range(len(template)), template, line_color='green', line_width=2, legend_label='Template')
-#
-# # Add the legend
-# p.legend.location = 'top_left'
-#
-# # Save the plot
-# save(p)
+pylab.figure(1, figsize=(10,6))
+pylab.xlabel('Alignment position')
+pylab.ylabel('DOPE per-residue score')
+pylab.plot(model, color='red', linewidth=2, label='Model')
+pylab.plot(template, color='green', linewidth=2, label='Template')
+pylab.legend()
+pylab.savefig('dope_profile.png', dpi=65)
