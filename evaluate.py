@@ -7,7 +7,7 @@ env.libs.topology.read(file='$(LIB)/top_heav.lib') # read topology
 env.libs.parameters.read(file='$(LIB)/par.lib') # read parameters
 
 # read model file
-mdl = complete_pdb(env, '1YES.B99990004.pdb')
+mdl = complete_pdb(env, '1YES.B99990005.pdb')
 
 # Assess with DOPE:
 s = Selection(mdl)   # all atom selection
