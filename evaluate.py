@@ -7,9 +7,9 @@ env.libs.topology.read(file='$(LIB)/top_heav.lib') # read topology
 env.libs.parameters.read(file='$(LIB)/par.lib') # read parameters
 
 # read model file
-mdl = complete_pdb(env, '5xjy.pdb')
+mdl = complete_pdb(env, '1YES.B99990002.pdb')
 
 # Assess with DOPE:
 s = Selection(mdl)   # all atom selection
-s.assess_dope(output='ENERGY_PROFILE NO_REPORT', file='Template.profile',
+s.assess_dope(output='ENERGY_PROFILE NO_REPORT', file='Target.profile',
               normalize_profile=True, smoothing_window=15)
