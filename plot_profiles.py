@@ -31,7 +31,7 @@ e = modeller.Environ()
 a = modeller.Alignment(e, file='Target-template.ali')
 
 template = get_profile('Template.profile', a['5xjyA'])
-model = get_profile('1YES.profile', a['1YES'])
+model = get_profile('Target.profile', a['1YES'])
 
 # Plot the template and model profiles in the same plot for comparison:
 pylab.figure(1, figsize=(10,6))
