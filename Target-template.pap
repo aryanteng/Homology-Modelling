@@ -10,8 +10,8 @@
 
  _aln.pos  140       150       160       170       180       190       200
 5xjyA     KSSSNLKLQDFLVDNETFSGFLYHNLSLPKSTVDKMLRS-----------------------KSEEMI 
-1YES      KSSSNLKLQDFLVDNETFSGFLYHNLSLPKSTVDKMLRADVILHKVFLQGYQLHLTSLCNGSKSEEMI 
- _consrvd **************************************                        ******
+1YES      KSSSNLKLQDFLVDNETFSGFLNHNLSLPKSTVDKMLRADVILHKVFLQGYQLHLTSLCNGSKSEEMI 
+ _consrvd ********************** ***************                        ******
 
  _aln.pos    210       220       230       240       250       260       270
 5xjyA     QLGDQEVSELCGLPREKLAAAERVLRSNMDILKPILRTLNSTSPFPSKELAEATKTLLHSLGTLAQEL 
@@ -60,8 +60,8 @@
 
  _aln.pos  820       830       840       850       860       870       880
 5xjyA     -GFNLTTSVSMMLFDTFLYGVMTWYIEAV--------------------FN----------------- 
-1YES      DGFNLTTSISMMLFDTFLYGVMTWYIEAVFPGQYGIPRPWYFPCTKSYWFGEESDEKSHPGSNQKRIS 
- _consrvd  ******* ********************                    *
+1YES      DGFNLTTSVSMMLFDTFLYGVMTWYIEAVFPGQYGIPRPWYFPCTKSYWFGEESDEKSHPGSNQKRIS 
+ _consrvd  ****************************                    *
 
  _aln.pos    890       900       910       920       930       940       950
 5xjyA     -------------------LVKVYR----------ALNFYEGQITSFLGHNGAGKTTTMSILTGLFPP 
