@@ -85,8 +85,8 @@
 
  _aln.pos 1160      1170      1180      1190      1200      1210      1220
 5xjyA     -----SYDAGLGSDHESDTLTIDVSAISNLIRKHVSEARLVEDIGHELTYVLPYEAAKEGAFVELFH- 
-1YES      SVSQSSSDAGLGSDHDSDTLTIDVSAISNLIRKHVSEARLVEDIGHELTYVLPYEAAKEGAFVELFHE 
- _consrvd      * ******** ***************************************************
+1YES      SVSQSSSDAGLGSDHESDTLTIDVSAISNLIRKHVSEARLVEDIGHELTYVLPYEAAKEGAFVELFHE 
+ _consrvd      * ************************************************************
 
  _aln.pos   1230      1240      1250      1260      1270      1280      1290
 5xjyA     ------DLGISS--------------------------------------Y----------------- 
@@ -115,8 +115,8 @@
 
  _aln.pos   1570      1580      1590      1600      1610      1620      1630
 5xjyA     AKDSSADRFLNSLGRFMTGLDTKNNVKVWFNNKGWHAISSFLNVINNAILRANLQKGENPSHYGITAF 
-1YES      AKDSSADRFLNSLGRFMTGLDTKNNVKVWFNNKGWHAISSFLNVINNAILRANLQKGENPSHYGITAF 
- _consrvd ********************************************************************
+1YES      AKDSSADRFLNSLGRFMTGLDTRNNVKVWFNNKGWHAISSFLNVINNAILRANLQKGENPSHYGITAF 
+ _consrvd ********************** *********************************************
 
  _aln.pos     1640      1650      1660      1670      1680      1690      1700
 5xjyA     NHPLNLTKQQLSEVALMTTSVDVLVSICVIFAMSFVPASFVVFLIQERVSKAKHLQFISGVKPVIYWL 
